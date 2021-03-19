@@ -1,5 +1,6 @@
 #include <iostream>
-//#define PASSING_GRADE 60;
+//#define PASSING_GRADE 60
+
 using namespace std;
 const int PASSING_GRADE = 60;
 
@@ -22,11 +23,11 @@ double grade3  = 0.0;
 
   cout << "The average is " << average <<endl;
   
-  cout >> "The average is ";
-  
-  if (average < PASSING_GRADE )
-    cout << "failing" << endl;
-  else
-    cout << "passing" << endl;
+  cout << "The average is ";
+
+    if (average < PASSING_GRADE )
+      cout << "failing" << endl;
+    else
+      cout << "passing" << endl;
   return 0;
 }
